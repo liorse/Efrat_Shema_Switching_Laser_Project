@@ -9,7 +9,7 @@ app.connect(path=r"C:\windows\system32\win32Calc.exe")
 dlg = app['Calculator']
 
 hostName = "localhost"
-serverPort = 80
+serverPort = 4444
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
